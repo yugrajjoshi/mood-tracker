@@ -1,6 +1,6 @@
 # Mood Tracker (Node.js)
 
-A basic Node.js project to practice HTTP request methods (GET, POST, PUT, PATCH, DELETE). This is a simple learning project to reinforce practical knowledge of Node.js request handling.
+A basic Node.js basic implementation to practice HTTP request methods (GET, POST, PUT, PATCH, DELETE). This is a simple learning project to reinforce practical knowledge of Node.js request handling.
 
 ## What this  does
 
