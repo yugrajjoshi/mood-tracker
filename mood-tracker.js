@@ -3,7 +3,6 @@ const http = require('http');
 const url = require('url');
 let mood="";
 let body ="";
- 
 const server = http.createServer((request, response) => {
 
     if(request.method === 'GET' && request.url === '/mood'){
