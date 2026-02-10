@@ -46,7 +46,6 @@ const server = http.createServer((request, response) => {
             response.end();
         });   
     }
-
     else if(request.method === 'PUT'&& request.url === '/update'){
         body ="";
         request.on('data', chunk =>{
@@ -75,7 +74,6 @@ const server = http.createServer((request, response) => {
         console.log('Mood deleted');
         response.end();
     }
-    
     else {
         response.writeHead(404, {'Content-Type':'text/plain'});
         response.end('Method not allowed');
